@@ -1,0 +1,262 @@
+@media (max-width: 767px){
+  /*=========*/
+  /*main page*/
+  /*=========*/
+/*  start upper-bar*/
+  .upper-bar .first .list-group{
+    margin-left: 15px
+  }
+  .upper-bar .icons ul{
+    margin-left: 100px
+  }
+/*  start header*/
+  .heading header{
+    height: 80px;
+    margin-bottom: 0px
+  }
+  .heading header img{
+    top: 50%
+  }
+/*  start navbar*/
+  .navbar-light img{
+    margin: 0px;
+  }
+  .navbar-light .navbar-toggler{
+    border: none;
+  }
+  .navbar-toggler-icon{
+  }
+  /*start footer*/
+  footer .once ul{
+    margin-right: 230px;
+  }
+  footer .mero{
+    margin-top: 0
+  }
+  footer .second ul{
+    margin-top: 0
+  }  
+  /*start slider*/
+  .slide .carousel-inner{
+    height: 300px
+  }
+  /*  start subscrib*/
+  .subscribe .row .bower h2{
+    padding-bottom: 20px;
+  }
+  /*=========*/
+  /*sections*/
+  /*=======*/
+  .card-c{
+    width: 55%;
+  }
+  aside{
+    width: 45%
+  }
+  /*====================*/
+  /*start arabic coffee*/
+  /*==================*/
+  .mt-5, .my-5{
+    margin: 0 !important
+  }
+  /*====================*/
+  /*start account info*/
+  /*==================*/
+  .info .my-form-a{ width: 60%; }
+  .info .my-form-a input{ width: 100%; }
+  .info .my-form-a button{ width: 100%; }
+  .info aside{ width: 40%; }
+  /*====================*/
+  /*start saved address*/
+  /*==================*/
+  .info .add .address button{
+    width: 100%;
+  }
+  /*====================*/
+   /*start add address*/
+  /*==================*/
+  .info .add-address{
+    width: 60%;
+  }
+  .info .add-address .second .addres-spa span{
+    font-size: 14px;
+  }
+  .info .add-new button{
+    width: 100%
+  }
+  .info .add-address .second .adden button{
+    width: 100%
+  }
+  .info .add-address .add-new .close{
+    width: 55px
+  }
+  .info .add-address .add-new .slov{
+    margin-bottom: 15px
+  }
+  /*====================*/
+     /*start myorder*/
+  /*==================*/
+  .info .currently{
+    width: 60%
+  }
+  .info .currently .snop .row .pagee h4{
+    font-size: 18px
+  }
+  .info .currently .ten span{
+    font-size: 14px
+  }
+  .info .currently .twinty span{
+    font-size: 14px
+  }
+  .info .currently .spanish{
+    padding: 0px 10px;
+    height: 370px;
+  }
+  .info .currently .spanish h4{
+    font-size: 17px;
+    width: 170px
+  }
+  .info .currently .spanish span{
+    font-size: 13px
+  }
+  .info .currently .snop .row .pagee .count .rounded {
+    width: 122px
+  }
+  .info .currently .snop .row .pagee .count {
+    margin: 0px 0px -100px 15px;
+  }
+
+  /*====================*/
+   /*start my favourite*/
+  /*==================*/
+  .info .favourite{
+    width: 60%;
+  }
+  .info .favourite .my-favourite .row .col-2 span .svg-inline--fa{
+    margin-top: 6px !important;
+  }
+  /*====================*/
+   /*start fav coffee*/
+  /*==================*/
+  .info .favour{
+    width: 60%;
+  }
+  .info .favour .card .card-body {
+    padding: 15px 0px 0px 0px;
+  }
+  .info .favour .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding: 15px
+  }
+  .info .favour .row .col-3 span:nth-child(2):before{
+    content: '';
+  }
+  .info .favour .row .col-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .info .favour .row .col-3 span{
+    margin-right: 20px
+  }
+  /*====================*/
+   /*start contact us*/
+  /*==================*/
+  .contact .lay-map .leave .mess .title-info{
+    font-size: 22px;
+  }
+  /*====================*/
+    /*start about us*/
+  /*==================*/
+  /*====================*/
+    /*start my-cart*/
+  /*==================*/
+  .cart .my-card .solve .cardt .card-body .pack{
+    padding: 10px;
+    width: 160px;
+  }
+  .cart .my-card .solve .cardt .card-body .pack h4{
+    font-size: 20px;
+    font-weight: bold
+  }
+  .cart .my-card .solve .find{
+    display: flex;
+    align-items: center
+  }
+  .cart .my-card .solve img{
+    margin-left: 55px!important;
+  }
+  .cart .my-card .solve .cardt .card-body{
+    margin-left: 30px!important
+  }
+  .cart .my-card .solve .find .svg-inline--fa {
+    overflow: visible;
+    margin-top: 190px;
+    font-size: 30px;
+  }
+  .cart .spanish h4{
+    width: 192px
+  }
+  /*======================*/
+  /*start payment-address*/
+  /*====================*/
+  .ment button{
+    width: 50%
+  }
+  .ment .and-nad button{
+    width: 100%;
+  }
+  .ment .and-nad span{
+    font-size: 15px
+  }
+  /*=====================*/
+  /*start confirim-order*/
+  /*====================*/
+  .costomer .datelis .addres-spa{
+    padding: 0px !important
+  }
+  .costomer .datelis .icon-one span{
+    font-size: 12px;
+  }
+  .costomer .datelis .icon-two span{
+    font-size: 12px
+  }
+  .cart .method .spanish{
+    padding-left: 15px !important;
+    padding-right: 10px
+  }
+  .cart .method .spanish h4{
+    font-size: 15px
+  }
+  .cart .method .spanish span{
+    font-size: 12px
+  }
+  .cart .ordd{
+    margin-top: 20px !important
+  }
+  /*=====================*/
+     /*start my-order*/
+  /*====================*/
+  .no-one .currently{
+    width: 65%;
+  }
+  .no-one aside{
+    width: 35% !important;
+    font-size: 15px
+  }
+  .no-one .snop img{
+    width: 100px !important
+  }
+  .no-one .count{
+    margin-left: 80px !important
+  }
+  .no-one .currently .spanish{
+    padding: 0px 5px
+  }
+  .no-one .currently .spanish h4{
+    width: 170px;
+    font-size: 17px
+  }
+}
+
+
+

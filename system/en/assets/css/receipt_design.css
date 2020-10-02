@@ -1,0 +1,137 @@
+
+
+* {
+    text-align:  center;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Tahoma';
+    width: 302.36220472px;
+    max-width: 302.36220472px;
+}
+
+.btn_print {
+    background:url('/icons8-print-24.png')   #55acee no-repeat left center;
+    border-radius: 5px; 
+    color:     whitesmoke; /* White text */
+    padding: 12px 30px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+.btn_print:hover {
+    background-color: #005cbf;
+}
+
+.btn_close {
+    background:url('/icons8-close-window-24.png')  #55acee no-repeat left center;
+    border-radius: 5px; 
+    color:     whitesmoke; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+
+
+}
+
+/* Darker background on mouse-over */
+.btn_close:hover {
+    background-color: #005cbf;
+}
+
+#bill{
+    top: 65px;
+    position: fixed;
+}
+
+.companyname{
+    text-align:  center;
+    font-size: 20px;
+    width: 100%;
+}
+.companyinfo{
+    text-align:  center;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.bill_header_info-c1{
+    font-weight: bold;
+    width: 50%;
+    /*border:  #000 solid thin ;*/
+    text-align:    left;
+} 
+
+
+.bill_header_info-c2{
+    width: 50%;
+    /*border:  #000 solid thin ;*/
+    text-align:    right;
+}
+
+.bill_details_item_name_header{
+    width: 60%;
+    border:  #000 solid thin ;
+    text-align:    center;
+    padding:  7px;
+
+} 
+.bill_details_item_name.ol,li,ul,dl,dt,dd{
+    /*border:  #000 solid thin ;*/
+    width: 100%;
+    text-align:  left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bill_details_qty_header{
+    width: 15%;
+    border:  #000 solid thin ;
+    text-align:    center;
+    padding:  7px;
+} 
+.bill_details_net_price_header{
+    padding:  7px;
+
+    width: 25%;
+    border:  #000 solid thin ;
+    text-align:    center;
+} 
+
+.bill_details_item_name{
+    /*border:  #000 solid thin ;*/
+    text-align:   left;
+} 
+
+.bill_details_qty{
+    /*border:  #000 solid thin ;*/
+    text-align:   center;
+}  
+.bill_details_net_price{
+    /*border:  #000 solid thin ;*/
+    text-align:  right;
+}  
+
+
+
+.bill_footer-c1{
+    font-weight: bold;
+    width: 50%;
+    /*border:  #000 solid thin ;*/
+        text-align:    left;
+
+} 
+
+
+.bill_footer-c2{
+    width: 50%;
+    /*border:  #000 solid thin ;*/
+    text-align:    right;
+}
+
+
+
+
+
+
+
+

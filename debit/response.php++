@@ -1,0 +1,37 @@
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+/** Request Processing**/
+//Merchant can connect iPay Benefit Plugin with the below step
+require('iPayBenefitPipe.php');
+$myObj =new iPayBenefitPipe();
+//initialization
+$resourcePath = "resource/";
+$keystorePath = "resource/";
+$aliasName = "test03957950"; //Terminal Alias Name.
+
+$myObj =new iPayBenefitPipe();
+$myObj->setAlias(trim($aliasName));
+$myObj->setResourcePath(trim($resourcePath));
+$myObj->setKeystorePath(trim($keystorePath)); //The method to be called for decrypting the
+
+$returnValue = $myObj->parseEncryptedRequest($_GET['trandata']);
+
+$myObj->getResult();
+//To get payment ID.
+$myObj->getPaymentId();
+//To get Transaction ID.
+$myObj->getTransId();
+// To get Amount
+$myObj->getAmt();
+// To get Track ID
+$myObj->getTrackId();
+// To get RRN No
+$myObj->getRef();
+
+
+
+ ?>
